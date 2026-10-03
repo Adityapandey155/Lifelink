@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual Environment =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Database =====
+lifelink.db
+*.db
+*.sqlite3
+
+# ===== Environment variables / secrets =====
+.env
+.env.local
+*.env
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Python packaging/build artifacts =====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Pytest / coverage (if added later) =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== OS files =====
+desktop.ini
